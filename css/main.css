@@ -1,0 +1,85 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #131313   ;
+    color: #fff;
+}
+
+
+header{
+    display: flex;
+    align-items: flex-end;
+    padding-top: 30px;
+}
+
+header h1{
+    margin-left: 80px;
+    font-size: x-large;
+    cursor:default;
+}
+
+header h1:hover{
+    color:#B561FA  ;
+    cursor: pointer;
+}
+
+
+
+header ul li{
+   display: inline;
+   margin: 50px;
+   font-size:larger;
+   cursor:default;
+}
+
+header ul li:hover{
+    color:#B561FA  ;
+    cursor: pointer;
+}
+
+.banner{
+    display: flex;
+    padding: 100px;
+}
+
+.text-banner{
+    padding: 40px;
+    
+    align-items: center;
+    
+}
+.text-banner h2{
+    font-size:60px;
+    padding: 10px;
+}
+
+.text-banner p{
+    font-size:x-large;
+    padding: 10px;
+}
+
+.button-add{
+    background-color: #3492F6 ;
+    font-size:20px;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.button-add:hover{
+    background-color: #2B6DB2  ;
+}
+
+
+.img-banner img{
+    margin-left: 150px;
+    
+}
+.caracola-icon{
+    width: 400px;
+    border-radius: 360px;
+
+
+}
